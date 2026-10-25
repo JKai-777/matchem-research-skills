@@ -1,0 +1,13 @@
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# 校验产物
+*.zip
+.cache/
+__pycache__/
