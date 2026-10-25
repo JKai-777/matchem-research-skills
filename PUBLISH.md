@@ -1,5 +1,7 @@
 # 推送与订阅
 
+> **当前状态（2026-10-25）**：已上线 → <https://github.com/JKai-777/matchem-research-skills>（public，默认分支 `main`）。三个技能已通过插件「发现 → GitHub 仓库订阅」安装并启用。下列步骤保留作复现与换机时参考。
+
 本机没有 winget 可用的安装通道（`winget install` 报 `0x80073cfc`），也没有管理员权限，所以走的是**便携版 Git**（已装好并验证）：
 
 | 项 | 值 |
@@ -107,6 +109,6 @@ $repo = "G:\DSH work place\matchem-research-skills"
 & $git -C $repo config user.email "you@example.com"
 & $git -C $repo add -A
 & $git -C $repo commit -m "feat: 材料化学研究流水线技能（文献 / 思路 / PPT）"
-& $git -C $repo remote add origin https://github.com/你的账号/matchem-research-skills.git
+& $git -C $repo remote add origin https://github.com/JKai-777/matchem-research-skills.git
 & $git -C $repo push -u origin main
 ```

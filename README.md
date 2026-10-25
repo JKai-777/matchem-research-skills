@@ -41,10 +41,10 @@ matchem-research-skills/
 在 DSH 技能管理插件的「发现」页 → GitHub 仓库订阅 → 粘贴：
 
 ```
-<你的账号>/matchem-research-skills
+https://github.com/JKai-777/matchem-research-skills
 ```
 
-地址也可以写成 `https://github.com/<账号>/matchem-research-skills/tree/main/skills`，带上 `skills` 子目录可以只扫这一层（但归档仍会整库下载）。
+地址也可以写成 `https://github.com/JKai-777/matchem-research-skills/tree/main/skills`，带上 `skills` 子目录可以只扫这一层（但归档仍会整库下载）。
 
 **添加不会下载也不会生效**，必须接着点「刷新」扫描、再点「安装」。安装时会自动启用技能，不需要重启 DSH。
 
